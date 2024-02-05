@@ -1,0 +1,23 @@
+{
+  "name": "influxdbapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "influxsvr.js",
+  "scripts": {
+    "start": "node influxsvr.js",
+    "dev": "nodemon influxsvr.js"
+  },
+  "keywords": [],
+  "author": "Watcharakon.B",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "influx": "^5.9.3",
+    "jsonwebtoken": "^9.0.2",
+    "mariadb": "^3.2.3"
+  }
+}
